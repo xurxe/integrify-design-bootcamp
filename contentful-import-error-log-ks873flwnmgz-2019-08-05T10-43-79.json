@@ -1,0 +1,377 @@
+[
+  {
+    "ts": "2019-08-05T07:44:53.469Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "ks873flwnmgz"
+            }
+          },
+          "id": "3ACPLYdhTE0wsapQS1ZjDD",
+          "type": "Entry",
+          "createdAt": "2019-08-05T07:44:46.098Z",
+          "updatedAt": "2019-08-05T07:44:46.098Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "2E90Hw8QEbatKbe098PMyk"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "2E90Hw8QEbatKbe098PMyk"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "index"
+            }
+          }
+        },
+        "fields": {
+          "name": {
+            "en-US": "Home"
+          },
+          "published": {
+            "en-US": "yes"
+          },
+          "headerTitle": {
+            "en-US": "Think Tank United"
+          },
+          "headerSubtitle": {
+            "en-US": "is a curated community of leaders and influencers that positively impact the world."
+          },
+          "headerPill": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1NKspnch7BSX6ivPwAKb9N"
+              }
+            }
+          },
+          "headerImage": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "5C169EOunaueWMP6G8pYX3"
+              }
+            }
+          },
+          "headerImageAlt": {
+            "en-US": "An illustration of a ladder going up into a head full of turning gears."
+          },
+          "main": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "35jxjqUO7wHBwF7aHBDaSu"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "7gRhgqTWclNzZOttrUTNJd"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "3qEcD9VBmEpVcztEnlQ9Sn"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "4mDecsKRiwidCl794nbkTo"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "3vL8nu8bAWxA2S4Ov0yAIv"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "4EKkYOgOmZHRLBHJIsjyEo"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "7a7D4zHz2s2MLtMLjUH72r"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "1wPAKBtV49W4uE8nSsXiHQ"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1wPAKBtV49W4uE8nSsXiHQ"
+              },
+              "path": [
+                "fields",
+                "main",
+                "en-US",
+                7
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/ks873flwnmgz/environments/master/entries/3ACPLYdhTE0wsapQS1ZjDD/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/0.36.0; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v10.15.3; os macOS/16.7.0;",
+            "Authorization": "Bearer ...zzGYk",
+            "user-agent": "node.js/v10.15.3",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "2a933388438918526c4850d06fa1b98f"
+      }
+    }
+  },
+  {
+    "ts": "2019-08-05T07:45:25.108Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "ks873flwnmgz"
+            }
+          },
+          "id": "3ACPLYdhTE0wsapQS1ZjDD",
+          "type": "Entry",
+          "createdAt": "2019-08-05T07:44:46.098Z",
+          "updatedAt": "2019-08-05T07:44:46.098Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "2E90Hw8QEbatKbe098PMyk"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "2E90Hw8QEbatKbe098PMyk"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "index"
+            }
+          }
+        },
+        "fields": {
+          "name": {
+            "en-US": "Home"
+          },
+          "published": {
+            "en-US": "yes"
+          },
+          "headerTitle": {
+            "en-US": "Think Tank United"
+          },
+          "headerSubtitle": {
+            "en-US": "is a curated community of leaders and influencers that positively impact the world."
+          },
+          "headerPill": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1NKspnch7BSX6ivPwAKb9N"
+              }
+            }
+          },
+          "headerImage": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "5C169EOunaueWMP6G8pYX3"
+              }
+            }
+          },
+          "headerImageAlt": {
+            "en-US": "An illustration of a ladder going up into a head full of turning gears."
+          },
+          "main": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "35jxjqUO7wHBwF7aHBDaSu"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "7gRhgqTWclNzZOttrUTNJd"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "3qEcD9VBmEpVcztEnlQ9Sn"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "4mDecsKRiwidCl794nbkTo"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "3vL8nu8bAWxA2S4Ov0yAIv"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "4EKkYOgOmZHRLBHJIsjyEo"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "7a7D4zHz2s2MLtMLjUH72r"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "1wPAKBtV49W4uE8nSsXiHQ"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1wPAKBtV49W4uE8nSsXiHQ"
+              },
+              "path": [
+                "fields",
+                "main",
+                "en-US",
+                7
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/ks873flwnmgz/environments/master/entries/3ACPLYdhTE0wsapQS1ZjDD/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/0.36.0; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v10.15.3; os macOS/16.7.0;",
+            "Authorization": "Bearer ...zzGYk",
+            "user-agent": "node.js/v10.15.3",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "69ab7b1af516aa53960e4648f4bc799f"
+      }
+    }
+  },
+  {
+    "ts": "2019-08-05T07:45:25.108Z",
+    "level": "error",
+    "error": "Could not publish the following entities: Home (3ACPLYdhTE0wsapQS1ZjDD)"
+  }
+]

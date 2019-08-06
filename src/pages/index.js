@@ -29,22 +29,62 @@ export const query = graphql`
         }
         headerImage {
             file {
-            url
+                url
             }
         }
         headerImageAlt
         main {
             __typename
             ... on ContentfulTitlesAndThreeColumns {
-                id
-                title
-                subtitle {
-                    childMarkdownRemark {
-                        html
-                    }
+            id
+            title
+            subtitle {
+                childMarkdownRemark {
+                    html
                 }
+            }
+            column1 {
+                id
+                childMarkdownRemark {
+                html
+                }
+            }
+            column2 {
+                id
+                childMarkdownRemark {
+                    html
+                }
+            }
+            column3 {
+                id
+                childMarkdownRemark {
+                    html
+                }
+            }
+            }
+            ... on ContentfulMembers {
+            id
+            title
+            members {
+                id
+                name
+                position
+                company
+                image {
+                fluid (quality: 100) {
+                    base64
+                    aspectRatio
+                    src
+                    srcSet
+                    srcWebp
+                    srcSetWebp
+                    sizes
+                }
+                }
+            }
             }
         }
     }
 }
+  
 `

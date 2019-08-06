@@ -7,18 +7,23 @@ const Header = ({ header }) => {
 
     const { headerTitle, headerSubtitle, headerPill, headerImage, headerImageAlt } = header;
     const jsx = (
-        <header>
-            <h1>{headerTitle}</h1>
-            <h2>{headerSubtitle}</h2>
+        <header className='Header'>
 
-            <Link
-            to={headerPill.to.slug}
-            >{headerPill.text}</Link>
+            <div className='Header_box Header_box___text'>
+                <h1 className='Header_title'>{headerTitle}</h1>
+                <h2 className='Header_subtitle'>{headerSubtitle}</h2>
+                <Link
+                to={headerPill.to.slug}
+                >{headerPill.text}</Link>
+            </div>
 
-            <img 
-            src={`https:${headerImage.file.url}`}
-            alt={headerImageAlt}
-            />
+            <div className='Header_box Header_box___image'>
+                <img 
+                className='Header_image'
+                src={`https:${headerImage.file.url}`}
+                alt={headerImageAlt}
+                />
+            </div>
         </header>
     )
 

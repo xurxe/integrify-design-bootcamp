@@ -1,7 +1,10 @@
 import React from "react";
 import './styles.css';
 
+import HelmetComponent from '../Helmet';
+import Nav from '../Nav';
 import Header from '../Header';
+import Main from '../Main';
 
 const App = ({ data }) => {
 
@@ -18,9 +21,19 @@ const App = ({ data }) => {
 
     const jsx = (
         <div>
+
+            <HelmetComponent></HelmetComponent>
+
+            <Nav></Nav>
+            
             <Header
             header={header}
             ></Header>
+
+            <Main
+            main={main}
+            ></Main>
+            
         </div>
     )
 
